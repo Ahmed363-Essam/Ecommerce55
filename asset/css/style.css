@@ -1,0 +1,34 @@
+.img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.img img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.rotate:hover .img img
+{
+   
+        transform: rotateY(360deg);
+    
+}
+
+.p
+{
+
+}
+.p h1
+{
+    font-size: 21px;
+    margin-bottom: 0px;
+}
+.p p
+{
+    font-size: 17px;
+    font-weight: 500;
+}
