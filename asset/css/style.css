@@ -2,6 +2,7 @@
 {
     width: 80px;
     height: 80px;
+    overflow: hidden;
 }
 
 .img img
@@ -31,4 +32,138 @@
 {
     font-size: 17px;
     font-weight: 500;
+}
+/****** products********/
+.products
+{
+    padding: 40px 0px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.products .item_2
+{
+
+}
+.products .item_2 .upper
+{
+
+}
+.products .item_2 .upper .parent
+{
+    position: relative;
+    overflow: hidden;
+}
+.products .item_2 .upper .parent .img
+{
+    width: 213px;
+    height: 213px;
+    position: relative;
+}
+.products .item_2 .upper .parent .img img
+{
+    width: 100%;
+    height: 100%;
+}
+.products .item_2 .upper .parent .img .carve
+{
+    position: absolute;
+    /* top: 0px; */
+    bottom: 15px;
+    left: 9%;
+    height: 30px;
+    width: 82%;
+    margin: auto;
+    padding: 1px 16px;
+    border-radius: 22px;
+    background-color: #fcc902;
+    text-align: center;
+}
+
+.products .item_2 .upper .parent .img .carve .p1
+{
+    margin-bottom: -8px;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+.products .item_2 .upper .parent .img .carve span
+{
+    font-size: 9px;
+}
+.products .item_2 .upper .img2
+{
+    width: 213px;
+    height: 213px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    transition: all .75s;
+    transform: translateY(65px);
+    opacity: 0;
+    
+}
+.products .item_2 .upper .parent:hover .img2
+{
+    transform: translateY(0px); 
+    opacity: 1;
+}
+.products .item_2 .upper .img2 img
+{
+    width: 100%;
+    height: 100%;
+}
+.products .item_2 .upper .img2 li
+{
+    display: inline-block;
+}
+.products .item_2 .upper .img2 .con
+{
+    position: relative;
+    bottom: 56px;
+    left: 50%
+}
+.products .lower
+{
+padding: 0px 19px;
+}
+.products .lower .lead
+{
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #0a7ef0;
+}
+.products .lower ul
+{
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+.products .lower  ul li
+{
+    display: inline-block;
+    margin-right: 4px;
+   
+    
+}
+
+.products .lower .price
+{
+
+}
+.products .lower .price p
+{
+    color: red;
+    font-weight: 700;
+    font-size: 13px;
+}
+.products .lower .price p span
+{
+
+}
+
+.products .lower .addCart
+{
+    
 }
